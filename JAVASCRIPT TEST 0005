@@ -1,9 +1,0 @@
-let value = 1;
-
-for (let row = 1; row <= 5; row++) {
-    for (let col = 1; col <= row; col++) {
-        process.stdout.write(value + " ");
-        value++;
-    }
-    console.log();
-}
